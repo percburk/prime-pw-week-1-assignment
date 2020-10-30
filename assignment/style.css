@@ -1,11 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
 /* Give your page a fun background color */
+body {
+      background-color: #FAF0E6;
+}
 
 /* Make the header and footer a different color from the background */
+header {
+      background-color: #B0C4DE;
+      height: 100px;
+}
+
+footer {
+      background-color: #B0C4DE;
+      height: 100px;
+}
 
 /* Align the h1 containing your name in the center of the header*/
+h1 {
+      font-family: 'Cutive Mono', sans-serif;
+      font-size: 48px;
+      letter-spacing: 0.1em;
+      text-align: center;
+}
 
 /* Make your p tag a different color and italic */
+p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      letter-spacing: 0.1em;
+      font-style: italic;
+      color: #708090;
+}
 
 /* Put a border around your image */
+img {
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #708090;
+}
 
 /* Change the font-family of your list */
+ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
