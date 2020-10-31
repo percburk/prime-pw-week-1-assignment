@@ -3,23 +3,25 @@
 /* Give your page a fun background color */
 body {
       background-color: #FAF0E6;
+      margin: 10px;
 }
 
 /* Make the header and footer a different color from the background */
 header {
       background-color: #B0C4DE;
-      height: 100px;
+      border: 2px solid white;
 }
 
 footer {
       background-color: #B0C4DE;
-      height: 100px;
+      padding: 10px;
+      border: 2px solid white;
 }
 
 /* Align the h1 containing your name in the center of the header*/
 h1 {
       font-family: 'Cutive Mono', sans-serif;
-      font-size: 48px;
+      font-size: 36px;
       letter-spacing: 0.1em;
       text-align: center;
 }
@@ -29,6 +31,7 @@ p {
       font-family: 'Open Sans', sans-serif;
       font-size: 16px;
       letter-spacing: 0.1em;
+      line-height: 1.5em;
       font-style: italic;
       color: #708090;
 }
@@ -38,8 +41,10 @@ img {
   height: 200px;
   width: 200px;
   border-style: solid;
-  border-width: 4px;
+  border-width: 2px;
   border-color: #708090;
+  float: left;
+  margin-right: 40px;
 }
 
 /* Change the font-family of your list */
@@ -47,4 +52,11 @@ ul {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     letter-spacing: 0.1em;
+    margin: 30px 0px;
+    overflow: auto;
+}
+
+li {
+  margin-bottom: 10px;
+  line-height: 1.5em;
 }
