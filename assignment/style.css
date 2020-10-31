@@ -9,13 +9,13 @@ body {
 /* Make the header and footer a different color from the background */
 header {
       background-color: #B0C4DE;
-      border: 2px solid white;
+      border: 3px solid white;
 }
 
 footer {
       background-color: #B0C4DE;
       padding: 10px;
-      border: 2px solid white;
+      border: 3px solid white;
 }
 
 /* Align the h1 containing your name in the center of the header*/
@@ -24,6 +24,7 @@ h1 {
       font-size: 36px;
       letter-spacing: 0.1em;
       text-align: center;
+      line-height: 1.2em;
 }
 
 /* Make your p tag a different color and italic */
@@ -31,7 +32,7 @@ p {
       font-family: 'Open Sans', sans-serif;
       font-size: 16px;
       letter-spacing: 0.1em;
-      line-height: 1.5em;
+      line-height: 1.6em;
       font-style: italic;
       color: #708090;
 }
@@ -41,7 +42,7 @@ img {
   height: 200px;
   width: 200px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
   border-color: #708090;
   float: left;
   margin-right: 40px;
@@ -54,6 +55,7 @@ ul {
     letter-spacing: 0.1em;
     margin: 30px 0px;
     overflow: auto;
+    padding: 0px;
 }
 
 li {
