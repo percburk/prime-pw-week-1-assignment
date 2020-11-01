@@ -45,7 +45,7 @@ img {
   border-width: 3px;
   border-color: #708090;
   float: left;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 
 /* Change the font-family of your list */
@@ -55,7 +55,7 @@ ul {
     letter-spacing: 0.1em;
     margin: 30px 0px;
     overflow: auto;
-    padding: 0px;
+    padding: 0px 30px;
 }
 
 li {

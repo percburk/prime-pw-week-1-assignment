@@ -30,7 +30,7 @@
 
 # 8 - Why would you run the command 'git status'?
 
-    One would use 'git status' inside a folder that has a git repository to see the status of all the files being kept track of. It will display if any files have been modified, if any files are staged to commit, or if nothing has been changed.
+    One would use 'git status' inside a folder that has a git repository to see the status of all the files being kept track of. It will display if any files have been modified, if any files are staged to commit, or if everything is up to date.
 
 # 9 - What does the command 'git add .' do?
 
